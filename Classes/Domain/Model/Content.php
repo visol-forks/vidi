@@ -246,6 +246,7 @@ class Content implements \ArrayAccess
      * @throws \RuntimeException
      * @throws \InvalidArgumentException
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         $offset = Field::name($offset)->of($this)->toPropertyName();
