@@ -29,5 +29,11 @@
 	"require": {
 		"php": "^7.2.0 || ~8.0.0 || ~8.1.0",
 		"typo3/cms-core": "^11"
+	},
+	"config": {
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		}
 	}
 }
