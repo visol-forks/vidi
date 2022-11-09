@@ -67,9 +67,6 @@ jobs:
       - name: Install dependencies
         run: composer install --no-progress --no-interaction --optimize-autoloader
 
-      - name: PHPUnit configuration file
-        run: xmllint --schema vendor/phpunit/phpunit/phpunit.xsd --noout phpunit.xml.dist
-
       - name: Fetch schema for xliff
         run: wget https://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd --output-document=.Build/xliff-core-1.2-strict.xsd
 
