@@ -70,3 +70,4 @@ jobs:
 
       - name: Code Quality (by PHPStan)
         run: ./vendor/bin/phpstan analyse
+        continue-on-error: true

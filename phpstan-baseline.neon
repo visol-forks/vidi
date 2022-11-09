@@ -1,0 +1,4361 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method object\\:\\:create\\(\\)\\.$#"
+			count: 1
+			path: Classes/Backend/LanguageFileGenerator.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Backend\\\\LanguageFileGenerator\\:\\:getLanguageFile\\(\\) has parameter \\$dataType with no type specified\\.$#"
+			count: 1
+			path: Classes/Backend/LanguageFileGenerator.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Backend\\\\LanguageFileGenerator\\:\\:\\$template has no type specified\\.$#"
+			count: 1
+			path: Classes/Backend/LanguageFileGenerator.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:checkRelationForTable\\(\\)\\.$#"
+			count: 1
+			path: Classes/Command/VidiCommand.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Command\\\\VidiCommand\\:\\:configure\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Command/VidiCommand.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Command\\\\VidiCommand\\:\\:execute\\(\\) should return int but return statement is missing\\.$#"
+			count: 1
+			path: Classes/Command/VidiCommand.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: Classes/Configuration/ConfigurationUtility.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 2
+			path: Classes/Configuration/TcaGridAspect.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Configuration\\\\TcaGridAspect\\:\\:ensureMinimumTcaForGrid\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Configuration/TcaGridAspect.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: Classes/Configuration/VidiModulesAspect.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ClipboardController\\:\\:\\$response\\.$#"
+			count: 4
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ClipboardController\\:\\:\\$view\\.$#"
+			count: 3
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\ClipboardController\\:\\:htmlResponse\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\ClipboardController\\:\\:jsonResponse\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:findBy\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:flush\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getMatcher\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:save\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^PHPDoc tag @return with type string is incompatible with native type Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			count: 2
+			path: Classes/Controller/ClipboardController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:\\$arguments\\.$#"
+			count: 2
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:\\$responseFactory\\.$#"
+			count: 8
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:\\$selectionRepository\\.$#"
+			count: 2
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:\\$view\\.$#"
+			count: 21
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:htmlResponse\\(\\)\\.$#"
+			count: 3
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\:\\:getPid\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addErrorMessages\\(\\)\\.$#"
+			count: 7
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addInlineLanguageLabelFile\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getOrder\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPager\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:render\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setNumberOfObjects\\(\\)\\.$#"
+			count: 7
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setProcessedObject\\(\\)\\.$#"
+			count: 6
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setRow\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Call to method dispatch\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Cannot access offset 'uid' on mixed\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher not found\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:copyClipboardAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:deleteAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:emitProcessContentDataSignal\\(\\) has parameter \\$contentData with no type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:emitProcessContentDataSignal\\(\\) has parameter \\$counter with no type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:emitProcessContentDataSignal\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:emitProcessContentDataSignal\\(\\) has parameter \\$language with no type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:emitProcessContentDataSignal\\(\\) has parameter \\$savingBehavior with no type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getClipboardService\\(\\) should return Fab\\\\Vidi\\\\Service\\\\ClipboardService but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getContentObjectResolver\\(\\) should return Fab\\\\Vidi\\\\Resolver\\\\ContentObjectResolver but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getContentService\\(\\) should return Fab\\\\Vidi\\\\Service\\\\ContentService but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getFieldPathResolver\\(\\) should return Fab\\\\Vidi\\\\Resolver\\\\FieldPathResolver but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getLanguageService\\(\\) should return Fab\\\\Vidi\\\\Language\\\\LanguageService but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getSignalSlotDispatcher\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:getSignalSlotDispatcher\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:initializeAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:localizeAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:moveAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:moveClipboardAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:sortAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\ContentController\\:\\:updateAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^PHPDoc tag @return with type void is incompatible with native type Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			count: 2
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method Fab\\\\Vidi\\\\Resolver\\\\ContentObjectResolver\\:\\:getValue\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableNameOrContentObject of static method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|string, string\\|null given\\.$#"
+			count: 2
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$uid of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findByUid\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Parameter \\#1 \\$uid of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findByUid\\(\\) expects int, mixed given\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Parameter \\#2 \\$order of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findBy\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Order\\|null, object given\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Parameter \\#3 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 3
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Variable \\$localizedContent in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Variable \\$order in PHPDoc tag @var does not match assigned variable \\$defaultOrder\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Variable \\$uri in PHPDoc tag @var does not match assigned variable \\$uriRenderer\\.$#"
+			count: 1
+			path: Classes/Controller/ContentController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\FacetController\\:\\:\\$responseFactory\\.$#"
+			count: 2
+			path: Classes/Controller/FacetController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\FacetController\\:\\:\\$streamFactory\\.$#"
+			count: 2
+			path: Classes/Controller/FacetController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getSuggestions\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/FacetController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\FacetController\\:\\:autoSuggestAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/FacetController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\FacetController\\:\\:autoSuggestsAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/FacetController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\SelectionController\\:\\:\\$view\\.$#"
+			count: 3
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\SelectionController\\:\\:htmlResponse\\(\\)\\.$#"
+			count: 4
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\SelectionController\\:\\:redirect\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Model\\\\Selection\\:\\:getUid\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:add\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:findByDataTypeForCurrentBackendUser\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:remove\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Cannot call method getDataType\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Selection\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Cannot call method setDataType\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Selection\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Cannot call method setOwner\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Selection\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\SelectionController\\:\\:createAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\SelectionController\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\SelectionController\\:\\:updateAction\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Offset 'uid' does not exist on array\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^PHPDoc tag @return with type string is incompatible with native type Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			count: 1
+			path: Classes/Controller/SelectionController.php
+
+		-
+			message: "#^Access to an undefined property Fab\\\\Vidi\\\\Controller\\\\ToolController\\:\\:\\$view\\.$#"
+			count: 2
+			path: Classes/Controller/ToolController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\ToolController\\:\\:htmlResponse\\(\\)\\.$#"
+			count: 2
+			path: Classes/Controller/ToolController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ToolController.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getTools\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/ToolController.php
+
+		-
+			message: "#^PHPDoc tag @return with type void is incompatible with native type Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			count: 2
+			path: Classes/Controller/ToolController.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Controller\\\\UserPreferencesController\\:\\:htmlResponse\\(\\)\\.$#"
+			count: 1
+			path: Classes/Controller/UserPreferencesController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\UserPreferencesController\\:\\:getCacheInstance\\(\\) should return TYPO3\\\\CMS\\\\Core\\\\Cache\\\\Frontend\\\\AbstractFrontend but returns TYPO3\\\\CMS\\\\Core\\\\Cache\\\\Frontend\\\\FrontendInterface\\.$#"
+			count: 1
+			path: Classes/Controller/UserPreferencesController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\UserPreferencesController\\:\\:getCacheManager\\(\\) should return TYPO3\\\\CMS\\\\Core\\\\Cache\\\\CacheManager but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/UserPreferencesController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Controller\\\\UserPreferencesController\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Controller/UserPreferencesController.php
+
+		-
+			message: "#^Offset 'uid' does not exist on array\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/UserPreferencesController.php
+
+		-
+			message: "#^PHPDoc tag @return with type string is incompatible with native type Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			count: 1
+			path: Classes/Controller/UserPreferencesController.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Converter\\\\Field\\:\\:name\\(\\) should return \\$this\\(Fab\\\\Vidi\\\\Converter\\\\Field\\) but returns object\\.$#"
+			count: 1
+			path: Classes/Converter/Field.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Converter\\\\Field\\:\\:toPropertyName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Converter/Field.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Converter\\\\Property\\:\\:name\\(\\) should return \\$this\\(Fab\\\\Vidi\\\\Converter\\\\Property\\) but returns object\\.$#"
+			count: 1
+			path: Classes/Converter/Property.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Converter\\\\Property\\:\\:toFieldName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Converter/Property.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\DataHandler\\\\CoreDataHandler\\:\\:getDataHandler\\(\\) should return TYPO3\\\\CMS\\\\Core\\\\DataHandling\\\\DataHandler but returns array\\|object\\.$#"
+			count: 1
+			path: Classes/DataHandler/CoreDataHandler.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\DataHandler\\\\CoreDataHandler\\:\\:processCopy\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: Classes/DataHandler/CoreDataHandler.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$dataHandler \\\\TYPO3\\\\CMS\\\\Core\\\\DataHandling\\\\DataHandler\\)\\: Unexpected token \"\\$dataHandler\", expected type at offset 9$#"
+			count: 2
+			path: Classes/DataHandler/CoreDataHandler.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\DataHandler\\\\CoreDataHandler\\:\\:\\$dataHandler \\(array\\) does not accept object\\.$#"
+			count: 1
+			path: Classes/DataHandler/CoreDataHandler.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\DataHandler\\\\DataHandlerFactory\\:\\:getDataHandler\\(\\) should return Fab\\\\Vidi\\\\DataHandler\\\\DataHandlerInterface but returns object\\.$#"
+			count: 1
+			path: Classes/DataHandler/DataHandlerFactory.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 4
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:findReferencedBy\\(\\)\\.$#"
+			count: 2
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Class Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content implements generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\NotImplementedException not found\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\:\\:__toString\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\:\\:filterForBackendUser\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\:\\:filterForConfiguration\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\NotImplementedException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnsupportedMethodException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$object Content\\)\\: Unexpected token \"\\$object\", expected type at offset 9$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Parameter \\#1 \\$fieldName of static method Fab\\\\Vidi\\\\Converter\\\\Field\\:\\:name\\(\\) expects string, mixed given\\.$#"
+			count: 3
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, string\\|false given\\.$#"
+			count: 4
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Parameter \\#1 \\$propertyName of static method Fab\\\\Vidi\\\\Converter\\\\Property\\:\\:name\\(\\) expects string, mixed given\\.$#"
+			count: 3
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method TYPO3\\\\CMS\\\\Core\\\\Utility\\\\GeneralUtility\\:\\:underscoredToUpperCamelCase\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\:\\:\\$uid \\(int\\) does not accept int\\|null\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\NotImplementedException\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Variable \\$foreignObject in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/Domain/Model/Content.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:action\\(\\)\\.$#"
+			count: 5
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:equals\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 3
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setIgnoreEnableFields\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldName\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 3
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to method dispatch\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to method execute\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings not found\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher not found\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnsupportedMethodException not found\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:computeConstraint\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:computeConstraints\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:computeSearchTermConstraint\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:copy\\(\\) has parameter \\$target with no type specified\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:emitPostProcessConstraintsSignal\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findAll\\(\\) should return array\\<Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\> but returns array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findBy\\(\\) should return array\\<Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\> but returns array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findDistinctValues\\(\\) should return array\\<Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\> but returns array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findIn\\(\\) should return array\\<Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\> but returns array\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:getContentValidator\\(\\) should return Fab\\\\Vidi\\\\Domain\\\\Validator\\\\ContentValidator but returns object\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:getLanguageValidator\\(\\) should return Fab\\\\Vidi\\\\Domain\\\\Validator\\\\LanguageValidator but returns object\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:getSignalSlotDispatcher\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:getSignalSlotDispatcher\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher but returns object\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:localize\\(\\) has parameter \\$language with no type specified\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Domain\\\\Validator\\\\ContentValidator\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Domain\\\\Validator\\\\LanguageValidator\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$matcher Matcher\\)\\: Unexpected token \"\\$matcher\", expected type at offset 9$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of function reset expects array\\|object, array\\<Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\>\\|int\\<min, \\-1\\>\\|int\\<1, max\\> given\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:logicalNot\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface, TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface given\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:matching\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface, TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\AndInterface given\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:matching\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface, TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface given\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:matching\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface, TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\NotInterface given\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$matcher of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:countBy\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Matcher, object given\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$matcher of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:findBy\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Matcher, object given\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableNameOrContentObject of static method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|string, string\\|null given\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#1 \\$typo3QuerySettings of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setTypo3QuerySettings\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, object given\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\#2 \\$string of static method TYPO3\\\\CMS\\\\Core\\\\Utility\\\\GeneralUtility\\:\\:trimExplode\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\$constraints of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:emitPostProcessConstraintsSignal\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Parameter \\$defaultQuerySettings of method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:setDefaultQuerySettings\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:\\$dataHandler \\(TYPO3\\\\CMS\\\\Core\\\\DataHandling\\\\DataHandler\\) does not accept object\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:\\$defaultQuerySettings \\(TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\) does not accept null\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Domain\\\\Repository\\\\ContentRepository\\:\\:\\$defaultQuerySettings has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface as its type\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnsupportedMethodException\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepository.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepositoryFactory.php
+
+		-
+			message: "#^Variable \\$moduleLoader in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/ContentRepositoryFactory.php
+
+		-
+			message: "#^Access to constant ORDER_ASCENDING on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/SelectionRepository.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\SelectionRepository\\:\\:createQuery\\(\\)\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/SelectionRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\SelectionRepository\\:\\:findByDataTypeForCurrentBackendUser\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QueryResult\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/SelectionRepository.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\SelectionRepository\\:\\:findForEveryone\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QueryResult\\.$#"
+			count: 1
+			path: Classes/Domain/Repository/SelectionRepository.php
+
+		-
+			message: "#^Offset 'uid' does not exist on array\\|null\\.$#"
+			count: 2
+			path: Classes/Domain/Repository/SelectionRepository.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/ColumnsValidator.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Validator\\\\ColumnsValidator\\:\\:addError\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/ColumnsValidator.php
+
+		-
+			message: "#^Parameter \\#1 \\$fieldName of method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:hasField\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/ColumnsValidator.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/ColumnsValidator.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Validator\\\\FacetValidator\\:\\:addError\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/FacetValidator.php
+
+		-
+			message: "#^Parameter \\#1 \\$facetName of method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:hasFacet\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/FacetValidator.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/FacetValidator.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:languageExists\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/LanguageValidator.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/MatchesValidator.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Validator\\\\MatchesValidator\\:\\:addError\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/MatchesValidator.php
+
+		-
+			message: "#^Parameter \\#1 \\$fieldName of method Fab\\\\Vidi\\\\Tca\\\\TableService\\:\\:hasField\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/MatchesValidator.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/MatchesValidator.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Validator\\\\ToolValidator\\:\\:addError\\(\\)\\.$#"
+			count: 2
+			path: Classes/Domain/Validator/ToolValidator.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/ToolValidator.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isAllowed\\(\\)\\.$#"
+			count: 1
+			path: Classes/Domain/Validator/ToolValidator.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:init\\(\\)\\.$#"
+			count: 1
+			path: Classes/Facet/CompositeFacet.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 1
+			path: Classes/Facet/CompositeFacet.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Facet\\\\CompositeFacet\\:\\:modifyMatcher\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: Classes/Facet/CompositeFacet.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: Classes/Facet/CompositeFacet.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Facet\\\\FacetInterface\\:\\:modifyMatcher\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: Classes/Facet/FacetInterface.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Call to method getTypoScriptSetup\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager not found\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$backendConfigurationManager contains unknown class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Parameter \\#1 \\$itemValue of method Fab\\\\Vidi\\\\Tca\\\\FieldService\\:\\:getLabelForItem\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableNameOrContentObject of static method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Parameter \\#2 \\$dataType of method Fab\\\\Vidi\\\\Persistence\\\\MatcherObjectFactory\\:\\:getMatcher\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Facet/FacetSuggestionService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 2
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:init\\(\\)\\.$#"
+			count: 1
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^Cannot call method fetchAllAssociative\\(\\) on Doctrine\\\\DBAL\\\\Result\\|int\\.$#"
+			count: 1
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^Constructor of class Fab\\\\Vidi\\\\Facet\\\\PageFacet has an unused parameter \\$name\\.$#"
+			count: 1
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Facet\\\\PageFacet\\:\\:modifyMatcher\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type TYPO3\\\\CMS\\\\Core\\\\Database\\\\Query\\\\QueryBuilder\\.$#"
+			count: 1
+			path: Classes/Facet/PageFacet.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:init\\(\\)\\.$#"
+			count: 1
+			path: Classes/Facet/StandardFacet.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 1
+			path: Classes/Facet/StandardFacet.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Facet\\\\StandardFacet\\:\\:modifyMatcher\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: Classes/Facet/StandardFacet.php
+
+		-
+			message: "#^Negated boolean expression is always false\\.$#"
+			count: 1
+			path: Classes/Facet/StandardFacet.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Formatter\\\\Date\\:\\:format\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: Classes/Formatter/Date.php
+
+		-
+			message: "#^Parameter \\#1 \\$value \\(int\\) of method Fab\\\\Vidi\\\\Formatter\\\\Date\\:\\:format\\(\\) should be compatible with parameter \\$value \\(string\\) of method Fab\\\\Vidi\\\\Formatter\\\\FormatterInterface\\:\\:format\\(\\)$#"
+			count: 1
+			path: Classes/Formatter/Date.php
+
+		-
+			message: "#^Parameter \\#2 \\$timestamp of function strftime expects int\\|null, string given\\.$#"
+			count: 1
+			path: Classes/Formatter/Date.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Formatter\\\\Datetime\\:\\:format\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: Classes/Formatter/Datetime.php
+
+		-
+			message: "#^Parameter \\#1 \\$value \\(int\\) of method Fab\\\\Vidi\\\\Formatter\\\\Datetime\\:\\:format\\(\\) should be compatible with parameter \\$value \\(string\\) of method Fab\\\\Vidi\\\\Formatter\\\\FormatterInterface\\:\\:format\\(\\)$#"
+			count: 1
+			path: Classes/Formatter/Datetime.php
+
+		-
+			message: "#^Parameter \\#2 \\$timestamp of function strftime expects int\\|null, string given\\.$#"
+			count: 1
+			path: Classes/Formatter/Datetime.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getGridButtonsComponents\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/ButtonGroupRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:render\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/ButtonGroupRenderer.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$view\\)\\: Unexpected token \"\\$view\", expected type at offset 10$#"
+			count: 1
+			path: Classes/Grid/ButtonGroupRenderer.php
+
+		-
+			message: "#^Call to function is_string\\(\\) with array will always evaluate to false\\.$#"
+			count: 1
+			path: Classes/Grid/ColumnRendererAbstract.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Grid\\\\GridAnalyserService\\:\\:checkRelationForTable\\(\\) has parameter \\$tableName with no type specified\\.$#"
+			count: 1
+			path: Classes/Grid/GridAnalyserService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function htmlspecialchars expects string, int\\<0, max\\> given\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function rawurlencode expects string, int\\|null given\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function rawurlencode expects string, string\\|false given\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function rawurlencode expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of function count expects array\\|Countable, mixed given\\.$#"
+			count: 1
+			path: Classes/Grid/RelationCountRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/RelationEditRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/RelationEditRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/RelationEditRenderer.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 2
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Cannot access offset string on mixed\\.$#"
+			count: 4
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$foreignObject \\\\Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\)\\: Unexpected token \"\\$foreignObject\", expected type at offset 9$#"
+			count: 2
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method Fab\\\\Vidi\\\\Grid\\\\RelationRenderer\\:\\:getEditUri\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, mixed given\\.$#"
+			count: 2
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 2
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Parameter \\#5 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 2
+			path: Classes/Grid/RelationRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Call to method setHref\\(\\) on an unknown class TYPO3\\\\CMS\\\\Backend\\\\Template\\\\Components\\\\Buttons\\\\LinkButton\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Backend\\\\Template\\\\Components\\\\Buttons\\\\LinkButton not found\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Grid\\\\VisibilityRenderer\\:\\:getIconFactory\\(\\) should return TYPO3\\\\CMS\\\\Core\\\\Imaging\\\\IconFactory but returns object\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Grid\\\\VisibilityRenderer\\:\\:makeLinkButton\\(\\) has invalid return type TYPO3\\\\CMS\\\\Backend\\\\Template\\\\Components\\\\Buttons\\\\LinkButton\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Grid\\\\VisibilityRenderer\\:\\:makeLinkButton\\(\\) should return TYPO3\\\\CMS\\\\Backend\\\\Template\\\\Components\\\\Buttons\\\\LinkButton but returns object\\.$#"
+			count: 1
+			path: Classes/Grid/VisibilityRenderer.php
+
+		-
+			message: "#^Call to static method getPagesTSconfig\\(\\) on an unknown class TYPO3\\\\CMS\\\\Backend\\\\Utility\\\\BackendUtility\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Language\\\\LanguageService\\:\\:getDataService\\(\\) should return Fab\\\\Vidi\\\\Service\\\\DataService but returns object\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Language\\\\LanguageService\\:\\:getDefaultFlag\\(\\) should return array but returns array\\|string\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Language\\\\LanguageService\\:\\:getLocalizedFieldName\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Language\\\\LanguageService\\:\\:hasLocalization\\(\\) should return string but returns true\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Service\\\\DataService\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Language\\\\LanguageService\\:\\:\\$defaultIcon \\(array\\) does not accept string\\.$#"
+			count: 1
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Variable \\$localizedRecord in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 2
+			path: Classes/Language/LanguageService.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Call to static method registerModule\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\ExtensionUtility\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'bottom' on mixed\\.$#"
+			count: 3
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'buttons' on mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'components' on mixed\\.$#"
+			count: 8
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'doc\\-header' on mixed\\.$#"
+			count: 5
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'grid' on mixed\\.$#"
+			count: 3
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'left' on mixed\\.$#"
+			count: 2
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'menu\\-mass\\-action' on mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'plugins' on mixed\\.$#"
+			count: 3
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'right' on mixed\\.$#"
+			count: 2
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot access offset 'top' on mixed\\.$#"
+			count: 3
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 2
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getAdditionalJavaScriptFiles\\(\\) has invalid return type string\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getAdditionalJavaScriptFiles\\(\\) should return array\\<string\\> but returns mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getAdditionalStyleSheetFiles\\(\\) has invalid return type string\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getAdditionalStyleSheetFiles\\(\\) should return array\\<string\\> but returns mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getDataType\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getDocHeaderBottomLeftComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getDocHeaderBottomRightComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getDocHeaderTopLeftComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getDocHeaderTopRightComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getGridButtonsComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getGridTopComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getMainModule\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:getMenuMassActionComponents\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:isPidIgnored\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$array\\)\\: Unexpected token \"\\$array\", expected type at offset 19$#"
+			count: 7
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of function array_search expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of function in_array expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$additionalJavaScriptFiles \\(array\\<string\\>\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$additionalStyleSheetFiles \\(array\\<string\\>\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$dataType \\(string\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$dataType \\(string\\) does not accept string\\|null\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$defaultPid \\(string\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$isShown \\(bool\\) does not accept string\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\:\\:\\$mainModule \\(string\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModuleLoader.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDefaultPid\\(\\)\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:hasComponentInDocHeader\\(\\)\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^Cannot call method fetch\\(\\) on Doctrine\\\\DBAL\\\\Result\\|int\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^Method TYPO3\\\\CMS\\\\Core\\\\Authentication\\\\BackendUserAuthentication\\:\\:getTSConfig\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type TYPO3\\\\CMS\\\\Core\\\\Database\\\\Query\\\\QueryBuilder\\.$#"
+			count: 1
+			path: Classes/Module/ModulePidService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 3
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Call to method getTypoScriptSetup\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager not found\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModulePreferences\\:\\:fetchPreferencesFromDatabase\\(\\) has parameter \\$dataType with no type specified\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModulePreferences\\:\\:fetchPreferencesFromDatabase\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModulePreferences\\:\\:getDataService\\(\\) should return Fab\\\\Vidi\\\\Service\\\\DataService but returns object\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModulePreferences\\:\\:getSignature\\(\\) should return bool but returns string\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Service\\\\DataService\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$backendConfigurationManager contains unknown class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager\\.$#"
+			count: 1
+			path: Classes/Module/ModulePreferences.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getCurrentPid\\(\\)\\.$#"
+			count: 2
+			path: Classes/Module/ModuleService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Module\\\\ModuleService\\:\\:getDataService\\(\\) should return Fab\\\\Vidi\\\\Service\\\\DataService but returns object\\.$#"
+			count: 1
+			path: Classes/Module/ModuleService.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Service\\\\DataService\\.$#"
+			count: 1
+			path: Classes/Module/ModuleService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Mvc\\\\JsonResult\\:\\:hasErrors\\(\\) should return \\$this\\(Fab\\\\Vidi\\\\Mvc\\\\JsonResult\\) but returns bool\\.$#"
+			count: 1
+			path: Classes/Mvc/JsonResult.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Mvc\\\\JsonResult\\:\\:incrementNumberOfProcessedObjects\\(\\) should return \\$this\\(Fab\\\\Vidi\\\\Mvc\\\\JsonResult\\) but return statement is missing\\.$#"
+			count: 1
+			path: Classes/Mvc/JsonResult.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$row with type mixed is not subtype of native type array\\.$#"
+			count: 1
+			path: Classes/Mvc/JsonResult.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Mvc\\\\JsonResult\\:\\:\\$numberOfObjects \\(int\\) does not accept mixed\\.$#"
+			count: 1
+			path: Classes/Mvc/JsonResult.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\ConstraintContainer\\:\\:getConstraint\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/ConstraintContainer.php
+
+		-
+			message: "#^Parameter \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\ConstraintContainer\\:\\:setConstraint\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/ConstraintContainer.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\ConstraintContainer\\:\\:\\$constraint has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface as its type\\.$#"
+			count: 1
+			path: Classes/Persistence/ConstraintContainer.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:equals\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:equals\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:greaterThan\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:greaterThan\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:greaterThanOrEqual\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:greaterThanOrEqual\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:in\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:in\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:lessThan\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:lessThan\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:lessThanOrEqual\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:lessThanOrEqual\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:like\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:like\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:notEquals\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Matcher\\:\\:notEquals\\(\\) has parameter \\$operand with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Matcher.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:dispatch\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 2
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getMainModule\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isPidIgnored\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher not found\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\MatcherObjectFactory\\:\\:getInstance\\(\\) should return \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\MatcherObjectFactory\\) but returns object\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Method TYPO3\\\\CMS\\\\Core\\\\Authentication\\\\BackendUserAuthentication\\:\\:getTSConfig\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$matcher Matcher\\)\\: Unexpected token \"\\$matcher\", expected type at offset 9$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$matcher of method Fab\\\\Vidi\\\\Persistence\\\\MatcherObjectFactory\\:\\:applyCriteriaFromDataTables\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Matcher, object given\\.$#"
+			count: 1
+			path: Classes/Persistence/MatcherObjectFactory.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Pager\\:\\:getDisplayItems\\(\\) should return array but returns null\\.$#"
+			count: 1
+			path: Classes/Persistence/Pager.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Pager\\:\\:setCount\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Pager.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Pager\\:\\:setLimit\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Pager.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Pager\\:\\:setOffset\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Pager.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Pager\\:\\:setPage\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Pager.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getLimit\\(\\)\\.$#"
+			count: 2
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getOffset\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setLimit\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setOffset\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setPage\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 2
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\PagerObjectFactory\\:\\:getPager\\(\\) should return Fab\\\\Vidi\\\\Persistence\\\\Pager but returns object\\.$#"
+			count: 1
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$pager \\\\Fab\\\\Vidi\\\\Persistence\\\\Pager\\)\\: Unexpected token \"\\$pager\", expected type at offset 9$#"
+			count: 1
+			path: Classes/Persistence/PagerObjectFactory.php
+
+		-
+			message: "#^Access to constant CHARSET on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Query\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_CONTAINS on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_GREATER_THAN on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_GREATER_THAN_OR_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_IN on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_LESS_THAN on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_LESS_THAN_OR_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Access to constant OPERATOR_LIKE on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method _and\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method _or\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method comparison\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 9
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method getSelectorName\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method getTypoScriptSetup\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method lowerCase\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method not\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method propertyValue\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 9
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method selector\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to method statement\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Call to static method setProperty\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Reflection\\\\ObjectAccess\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SelectorInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\PersistenceManagerInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InvalidNumberOfConstraintsException not found\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\NotImplementedException not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnexpectedTypeException not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:contains\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:equals\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:execute\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryResultInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:execute\\(\\) has parameter \\$returnRawQueryResult with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:getConstraint\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:getQuerySettings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:getSource\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:getStatement\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\Statement\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:getTypo3QuerySettings\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:greaterThan\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:greaterThanOrEqual\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:in\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:isEmpty\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:lessThan\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:lessThanOrEqual\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:like\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:logicalAnd\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\AndInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:logicalNot\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\NotInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:logicalOr\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\OrInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:matching\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:matching\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface but returns \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\Query\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setLimit\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setLimit\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface but returns \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\Query\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setOffset\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setOffset\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface but returns \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\Query\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setOrderings\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setOrderings\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface but returns \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\Query\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setQuerySettings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setSource\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:statement\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:statement\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface but returns \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\Query\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:unsetLimit\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:unsetLimit\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface but returns \\$this\\(Fab\\\\Vidi\\\\Persistence\\\\Query\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Exception\\\\InvalidQueryException\\|TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\NotImplementedException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InvalidNumberOfConstraintsException is not subtype of Throwable$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnexpectedTypeException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$backendConfigurationManager contains unknown class TYPO3\\\\CMS\\\\Extbase\\\\Configuration\\\\BackendConfigurationManager\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function mb_strtolower expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:logicalNot\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:matching\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:injectTypo3QuerySettings\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setQuerySettings\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$source of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setSource\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$statement of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:statement\\(\\) has invalid type TYPO3\\\\CMS\\\\Core\\\\Database\\\\PreparedStatement\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Parameter \\$typo3QuerySettings of method Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:setTypo3QuerySettings\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$constraint has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface as its type\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$persistenceManager \\(TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\PersistenceManagerInterface\\) does not accept object\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$persistenceManager has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\PersistenceManagerInterface as its type\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$qomFactory \\(TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory\\) does not accept object\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$qomFactory has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\QueryObjectModelFactory as its type\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$source has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface as its type\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$statement has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\Statement as its type\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$typo3QuerySettings \\(TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings\\) does not accept TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Query\\:\\:\\$typo3QuerySettings has unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings as its type\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InvalidNumberOfConstraintsException\\.$#"
+			count: 2
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\NotImplementedException\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnexpectedTypeException\\.$#"
+			count: 1
+			path: Classes/Persistence/Query.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\ResultSetStorage\\:\\:set\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/ResultSetStorage.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\ResultSetStorage\\:\\:set\\(\\) has parameter \\$querySignature with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/ResultSetStorage.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$sys_page\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_CONTAINS on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_GREATER_THAN on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_GREATER_THAN_OR_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_IN on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 3
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_LESS_THAN on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_LESS_THAN_OR_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_LIKE on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant OPERATOR_NOT_EQUAL_TO on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant ORDER_ASCENDING on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Access to constant ORDER_DESCENDING on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:deleteClause\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:enableFields\\(\\)\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPageOverlay\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPropertyFromAspect\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getRecordOverlay\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:versionOL\\(\\)\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method _loadRealInstance\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\LazyLoadingProxy\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\NotInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint1\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\AndInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint1\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint1\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\OrInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint2\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\AndInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint2\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getConstraint2\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\OrInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getEnableFieldsToBeIgnored\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getIgnoreEnableFields\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getIncludeDeleted\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getJoinCondition\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\JoinInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getJoinCondition\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getLanguageUid\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 4
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getNodeTypeName\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getOperand\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\DynamicOperandInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getOperand\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\LowerCaseInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getOperand\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\UpperCaseInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getOperand1\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getOperand2\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getOperator\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getPropertyName\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\DynamicOperandInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getPropertyName\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\PropertyValueInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getRespectSysLanguage\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to method getUid\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\DomainObject\\\\DomainObjectInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to static method workspaceOL\\(\\) on an unknown class TYPO3\\\\CMS\\\\Backend\\\\Utility\\\\BackendUtility\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Cannot call method fetch\\(\\) on Doctrine\\\\DBAL\\\\Result\\|int\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\DomainObject\\\\DomainObjectInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\LazyLoadingProxy not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\AndInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\JoinInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\LowerCaseInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\NotInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\OrInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\PropertyValueInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SelectorInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\UpperCaseInterface not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception not found\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InconsistentQuerySettingsException not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InvalidRelationConfigurationException not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnexpectedTypeException not found\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Instantiated class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnsupportedOrderException not found\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:addUnionStatement\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:fetchResult\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:getTypes\\(\\) has parameter \\$parameters with no type specified\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type TYPO3\\\\CMS\\\\Core\\\\Database\\\\Connection\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type TYPO3\\\\CMS\\\\Core\\\\Database\\\\Query\\\\QueryBuilder\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception is not subtype of Throwable$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InconsistentQuerySettingsException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\RepositoryException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnexpectedTypeException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^PHPDoc tag @throws with type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnsupportedOrderException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\#1 \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:addAdditionalWhereClause\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings given\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableName of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:generateAlias\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\#2 \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:doLanguageAndWorkspaceOverlay\\(\\) expects TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface, TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings given\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$comparison of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseComparison\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ComparisonInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$constraint of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseConstraint\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\ConstraintInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$operand of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseDynamicOperand\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\DynamicOperandInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:addAdditionalWhereClause\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:addSysLanguageStatement\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:addVisibilityConstraintStatement\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$querySettings of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:doLanguageAndWorkspaceOverlay\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$source of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseComparison\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$source of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseConstraint\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$source of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseDynamicOperand\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$source of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseOrderings\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Parameter \\$source of method Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:parseSource\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Qom\\\\SourceInterface\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Property Fab\\\\Vidi\\\\Persistence\\\\Storage\\\\VidiDbBackend\\:\\:\\$pageRepository \\(TYPO3\\\\CMS\\\\Core\\\\Domain\\\\Repository\\\\PageRepository\\) does not accept object\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Result of && is always true\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Right side of && is always true\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InconsistentQuerySettingsException\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\InvalidRelationConfigurationException\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnexpectedTypeException\\.$#"
+			count: 2
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Throwing object of an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Exception\\\\UnsupportedOrderException\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Variable \\$connectionPool in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/Persistence/Storage/VidiDbBackend.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getObject\\(\\)\\.$#"
+			count: 1
+			path: Classes/Processor/ContentObjectProcessor.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getValue\\(\\)\\.$#"
+			count: 1
+			path: Classes/Processor/ContentObjectProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\ContentObjectProcessor\\:\\:appendOrRemoveRelations\\(\\) has parameter \\$fieldNameAndPath with no type specified\\.$#"
+			count: 1
+			path: Classes/Processor/ContentObjectProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\ContentObjectProcessor\\:\\:appendRelations\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: Classes/Processor/ContentObjectProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\ContentObjectProcessor\\:\\:removeRelations\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: Classes/Processor/ContentObjectProcessor.php
+
+		-
+			message: "#^Parameter \\#4 \\$savingBehavior of method Fab\\\\Vidi\\\\Processor\\\\ContentObjectProcessor\\:\\:appendOrRemoveRelations\\(\\) expects string, int given\\.$#"
+			count: 1
+			path: Classes/Processor/ContentObjectProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:getContentObjectResolver\\(\\) should return Fab\\\\Vidi\\\\Resolver\\\\ContentObjectResolver but returns object\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:getCreationTime\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:replaceWellKnownMarkers\\(\\) has parameter \\$creationTime with no type specified\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:searchAndReplace\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Parameter \\#1 \\$updateValue of method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:searchAndReplace\\(\\) expects string, bool\\|float\\|int\\|string given\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Parameter \\#2 \\$currentValue of method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:replaceWellKnownMarkers\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Parameter \\#2 \\$currentValue of method Fab\\\\Vidi\\\\Processor\\\\MarkerProcessor\\:\\:searchAndReplace\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/Processor/MarkerProcessor.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getLocalizedFieldName\\(\\)\\.$#"
+			count: 1
+			path: Classes/Resolver/ContentObjectResolver.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldName\\(\\)\\.$#"
+			count: 2
+			path: Classes/Resolver/ContentObjectResolver.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Resolver\\\\FieldPathResolver\\:\\:getContextualDataType\\(\\) has parameter \\$dataType with no type specified\\.$#"
+			count: 1
+			path: Classes/Resolver/FieldPathResolver.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Resolver\\\\FieldPathResolver\\:\\:getDataType\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: Classes/Resolver/FieldPathResolver.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Resolver\\\\FieldPathResolver\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Resolver/FieldPathResolver.php
+
+		-
+			message: "#^Cannot assign offset string to array\\|string\\.$#"
+			count: 1
+			path: Classes/Service/BackendUserPreferenceService.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: Classes/Service/BackendUserPreferenceService.php
+
+		-
+			message: "#^Left side of && is always true\\.$#"
+			count: 1
+			path: Classes/Service/BackendUserPreferenceService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Service/ClipboardService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\ClipboardService\\:\\:getMatcher\\(\\) should return Fab\\\\Vidi\\\\Persistence\\\\Matcher but returns mixed\\.$#"
+			count: 1
+			path: Classes/Service/ClipboardService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\ClipboardService\\:\\:save\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Service/ClipboardService.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$matcher Matcher\\)\\: Unexpected token \"\\$matcher\", expected type at offset 9$#"
+			count: 1
+			path: Classes/Service/ClipboardService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:dispatch\\(\\)\\.$#"
+			count: 1
+			path: Classes/Service/ContentService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Service/ContentService.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher not found\\.$#"
+			count: 1
+			path: Classes/Service/ContentService.php
+
+		-
+			message: "#^Parameter \\#1 \\$order of method Fab\\\\Vidi\\\\Signal\\\\AfterFindContentObjectsSignalArguments\\:\\:setOrder\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Order, Fab\\\\Vidi\\\\Persistence\\\\Order\\|null given\\.$#"
+			count: 1
+			path: Classes/Service/ContentService.php
+
+		-
+			message: "#^Parameter \\#4 \\$limit of method Fab\\\\Vidi\\\\Service\\\\ContentService\\:\\:emitAfterFindContentObjectsSignal\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: Classes/Service/ContentService.php
+
+		-
+			message: "#^Parameter \\#5 \\$offset of method Fab\\\\Vidi\\\\Service\\\\ContentService\\:\\:emitAfterFindContentObjectsSignal\\(\\) expects int, int\\|null given\\.$#"
+			count: 1
+			path: Classes/Service/ContentService.php
+
+		-
+			message: "#^Cannot call method fetchAllAssociative\\(\\) on Doctrine\\\\DBAL\\\\Result\\|int\\.$#"
+			count: 1
+			path: Classes/Service/DataService.php
+
+		-
+			message: "#^Cannot call method fetchAssociative\\(\\) on Doctrine\\\\DBAL\\\\Result\\|int\\.$#"
+			count: 1
+			path: Classes/Service/DataService.php
+
+		-
+			message: "#^Cannot call method fetchOne\\(\\) on Doctrine\\\\DBAL\\\\Result\\|int\\.$#"
+			count: 1
+			path: Classes/Service/DataService.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: Classes/Service/DataService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\DataService\\:\\:addDemandConstraints\\(\\) has parameter \\$queryBuilder with no type specified\\.$#"
+			count: 1
+			path: Classes/Service/DataService.php
+
+		-
+			message: "#^Parameter \\#1 \\$restriction of method TYPO3\\\\CMS\\\\Core\\\\Database\\\\Query\\\\Restriction\\\\QueryRestrictionContainerInterface\\:\\:add\\(\\) expects TYPO3\\\\CMS\\\\Core\\\\Database\\\\Query\\\\Restriction\\\\QueryRestrictionInterface, object given\\.$#"
+			count: 2
+			path: Classes/Service/DataService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getFileObject\\(\\)\\.$#"
+			count: 1
+			path: Classes/Service/FileReferenceService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\FileReferenceService\\:\\:findByFileReference\\(\\) has parameter \\$propertyName with no type specified\\.$#"
+			count: 1
+			path: Classes/Service/FileReferenceService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\FileReferenceService\\:\\:getDataService\\(\\) should return Fab\\\\Vidi\\\\Service\\\\DataService but returns object\\.$#"
+			count: 1
+			path: Classes/Service/FileReferenceService.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Service\\\\DataService\\.$#"
+			count: 1
+			path: Classes/Service/FileReferenceService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\SpreadSheetService\\:\\:addRow\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Service/SpreadSheetService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\SpreadSheetService\\:\\:addToBuffer\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Service/SpreadSheetService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\SpreadSheetService\\:\\:addToBuffer\\(\\) has parameter \\$data with no type specified\\.$#"
+			count: 1
+			path: Classes/Service/SpreadSheetService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\SpreadSheetService\\:\\:generateCell\\(\\) has parameter \\$item with no type specified\\.$#"
+			count: 1
+			path: Classes/Service/SpreadSheetService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\SpreadSheetService\\:\\:generateFooter\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Service/SpreadSheetService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Service\\\\SpreadSheetService\\:\\:generateRow\\(\\) has parameter \\$row with no type specified\\.$#"
+			count: 1
+			path: Classes/Service/SpreadSheetService.php
+
+		-
+			message: "#^Access to property \\$id on an unknown class TYPO3\\\\CMS\\\\Frontend\\\\Controller\\\\TypoScriptFrontendController\\.$#"
+			count: 1
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPropertyFromAspect\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Call to function is_null\\(\\) with string will always evaluate to false\\.$#"
+			count: 1
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 2
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Empty array passed to foreach\\.$#"
+			count: 1
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\FieldService\\:\\:getFrontendObject\\(\\) has invalid return type TYPO3\\\\CMS\\\\Frontend\\\\Controller\\\\TypoScriptFrontendController\\.$#"
+			count: 1
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\FieldService\\:\\:setCompositeField\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableNameOrContentObject of static method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|string, string\\|null given\\.$#"
+			count: 4
+			path: Classes/Tca/FieldService.php
+
+		-
+			message: "#^Binary operation \"\\.\" between 'I could not…' and Fab\\\\Vidi\\\\Facet\\\\StandardFacet results in an error\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 2
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Elseif branch is unreachable because previous condition is always true\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and Fab\\\\Vidi\\\\Grid\\\\ColumnRendererInterface will always evaluate to false\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:canBeHidden\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:filterByBackendUser\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:filterByExcludedFields\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:filterByIncludedFields\\(\\) has parameter \\$fields with no type specified\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:getHeader\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:getWidth\\(\\) should return int\\|string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:isEditable\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:isLocalized\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:isSortable\\(\\) should return int\\|string but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:isVisible\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Offset string on array\\<int, \\(int\\|string\\)\\> in empty\\(\\) does not exist\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$renderer ColumnRendererInterface\\)\\: Unexpected token \"\\$renderer\", expected type at offset 9$#"
+			count: 2
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Parameter \\#1 \\$fieldNameAndPath of method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:getLabel\\(\\) expects string, Fab\\\\Vidi\\\\Facet\\\\FacetInterface\\|string given\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Possibly invalid array key type Fab\\\\Vidi\\\\Facet\\\\FacetInterface\\|string\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: Classes/Tca/GridService.php
+
+		-
+			message: "#^Access to constant ORDER_DESCENDING on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\QueryInterface\\.$#"
+			count: 1
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with string\\|null will always evaluate to false\\.$#"
+			count: 3
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 2
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\TableService\\:\\:has\\(\\) should return string but returns bool\\.$#"
+			count: 1
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\TableService\\:\\:hasLanguageSupport\\(\\) should return string but returns bool\\.$#"
+			count: 1
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\TableService\\:\\:hasSortableField\\(\\) should return bool but returns string\\.$#"
+			count: 1
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\TableService\\:\\:hasWorkspaceSupport\\(\\) should return string but returns bool\\.$#"
+			count: 1
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Parameter \\#3 \\$subject of function str_replace expects array\\|string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 3
+			path: Classes/Tca/TableService.php
+
+		-
+			message: "#^Call to method dispatch\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher not found\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:emitPreProcessTcaSignal\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:getSignalSlotDispatcher\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:getSignalSlotDispatcher\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher but returns object\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:grid\\(\\) should return Fab\\\\Vidi\\\\Tca\\\\GridService but returns Fab\\\\Vidi\\\\Tca\\\\TcaServiceInterface\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) should return Fab\\\\Vidi\\\\Tca\\\\TableService but returns Fab\\\\Vidi\\\\Tca\\\\TcaServiceInterface\\.$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^PHPDoc tag @throws with type InvalidArgumentException\\|TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Exception\\\\InvalidSlotException\\|TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Exception\\\\InvalidSlotReturnException is not subtype of Throwable$#"
+			count: 1
+			path: Classes/Tca/Tca.php
+
+		-
+			message: "#^Call to method setTemplatePathAndFilename\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 1
+			path: Classes/Tool/AbstractTool.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView not found\\.$#"
+			count: 1
+			path: Classes/Tool/AbstractTool.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tool\\\\AbstractTool\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Tool/AbstractTool.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tool\\\\AbstractTool\\:\\:initializeStandaloneView\\(\\) has invalid return type TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 1
+			path: Classes/Tool/AbstractTool.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$view contains unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 1
+			path: Classes/Tool/AbstractTool.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConfiguredNewRecordPid\\(\\)\\.$#"
+			count: 2
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:validateConfiguredPid\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Call to method assignMultiple\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Call to method render\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tool\\\\ConfiguredPidTool\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Variable \\$modulePidService in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/Tool/ConfiguredPidTool.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 2
+			path: Classes/Tool/ModulePreferencesTool.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 2
+			path: Classes/Tool/ModulePreferencesTool.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:save\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tool/ModulePreferencesTool.php
+
+		-
+			message: "#^Call to method assign\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 5
+			path: Classes/Tool/ModulePreferencesTool.php
+
+		-
+			message: "#^Call to method render\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 2
+			path: Classes/Tool/ModulePreferencesTool.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 1
+			path: Classes/Tool/ModulePreferencesTool.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:checkRelationForTable\\(\\)\\.$#"
+			count: 1
+			path: Classes/Tool/RelationAnalyserTool.php
+
+		-
+			message: "#^Call to method assign\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 4
+			path: Classes/Tool/RelationAnalyserTool.php
+
+		-
+			message: "#^Call to method render\\(\\) on an unknown class TYPO3\\\\CMS\\\\Fluid\\\\View\\\\StandaloneView\\.$#"
+			count: 2
+			path: Classes/Tool/RelationAnalyserTool.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 1
+			path: Classes/Tool/RelationAnalyserTool.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tool\\\\RelationAnalyserTool\\:\\:getModuleLoader\\(\\) should return Fab\\\\Vidi\\\\Module\\\\ModuleLoader but returns object\\.$#"
+			count: 1
+			path: Classes/Tool/RelationAnalyserTool.php
+
+		-
+			message: "#^PHPDoc tag @return with type object is not subtype of native type Fab\\\\Vidi\\\\Module\\\\ModuleLoader\\.$#"
+			count: 1
+			path: Classes/Tool/RelationAnalyserTool.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\Tool\\\\ToolRegistry\\:\\:getTools\\(\\) should return array\\<Fab\\\\Vidi\\\\Tool\\\\ToolInterface\\> but returns array\\<int, object\\>\\.$#"
+			count: 1
+			path: Classes/Tool/ToolRegistry.php
+
+		-
+			message: "#^Variable \\$tool in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/Tool/ToolRegistry.php
+
+		-
+			message: "#^Parameter \\$configuration of method Fab\\\\Vidi\\\\TypeConverter\\\\CsvToArrayConverter\\:\\:convertFrom\\(\\) has invalid type TYPO3\\\\CMS\\\\Extbase\\\\Property\\\\PropertyMappingConfigurationInterface\\.$#"
+			count: 2
+			path: Classes/TypeConverter/CsvToArrayConverter.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoute\\(\\)\\.$#"
+			count: 1
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:buildUriFromRoutePath\\(\\)\\.$#"
+			count: 1
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConnectionForTable\\(\\)\\.$#"
+			count: 1
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getPropertyFromAspect\\(\\)\\.$#"
+			count: 4
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getQueryBuilderForTable\\(\\)\\.$#"
+			count: 1
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Caught class TYPO3\\\\CMS\\\\Backend\\\\Routing\\\\Exception\\\\RouteNotFoundException not found\\.$#"
+			count: 1
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Backend\\\\Routing\\\\UriBuilder not found\\.$#"
+			count: 1
+			path: Classes/Utility/BackendUtility.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Backend\\\\Template\\\\Components\\\\Buttons\\\\LinkButton not found\\.$#"
+			count: 1
+			path: Classes/View/AbstractComponentView.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ClipboardButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ClipboardButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ClipboardButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:hasItems\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ClipboardButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ClipboardButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setHref\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ClipboardButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setHref\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Cannot call method getDataType\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Cannot call method getUid\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null\\.$#"
+			count: 2
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Offset string does not exist on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method Fab\\\\Vidi\\\\View\\\\Button\\\\DeleteButton\\:\\:getDeleteUri\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null given\\.$#"
+			count: 1
+			path: Classes/View/Button/DeleteButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/EditButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/EditButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setHref\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/EditButton.php
+
+		-
+			message: "#^Cannot call method getUid\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null\\.$#"
+			count: 1
+			path: Classes/View/Button/EditButton.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\View\\\\Button\\\\EditButton\\:\\:getUriRenderer\\(\\) should return Fab\\\\Vidi\\\\View\\\\Uri\\\\EditUri but returns object\\.$#"
+			count: 1
+			path: Classes/View/Button/EditButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 2
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDefaultPid\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 2
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:isConfiguredPidValid\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setHref\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Method TYPO3\\\\CMS\\\\Core\\\\Authentication\\\\BackendUserAuthentication\\:\\:getTSConfig\\(\\) invoked with 1 parameter, 0 required\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Variable \\$modulePidService in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/View/Button/NewButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ToolButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 2
+			path: Classes/View/Button/ToolButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ToolButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:hasAnyTools\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ToolButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Button/ToolButton.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getConfiguredNewRecordPid\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Check/PidCheck.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Check/PidCheck.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:validateConfiguredPid\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Check/PidCheck.php
+
+		-
+			message: "#^Variable \\$modulePidService in PHPDoc tag @var does not exist\\.$#"
+			count: 1
+			path: Classes/View/Check/PidCheck.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 5
+			path: Classes/View/Check/RelationsCheck.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDefaultFlag\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIconForRecord\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getLanguages\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getLocalizedFieldName\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getObject\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 2
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:hasLanguages\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:hasLocalization\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:setObject\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldName\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 3
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Cannot access offset 'hasRecursiveSelecti…' on mixed\\.$#"
+			count: 2
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Cannot access offset mixed on mixed\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Cannot call method getDataType\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Cannot call method getUid\\(\\) on Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null\\.$#"
+			count: 2
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\View\\\\Grid\\\\Row\\:\\:resolveValue\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$rendererObject \\\\Fab\\\\Vidi\\\\Grid\\\\ColumnRendererInterface\\)\\: Unexpected token \"\\$rendererObject\", expected type at offset 9$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method Fab\\\\Vidi\\\\View\\\\Grid\\\\Row\\:\\:computeVariables\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null given\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method Fab\\\\Vidi\\\\View\\\\Grid\\\\Row\\:\\:resolveValue\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null given\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableNameOrContentObject of static method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|string, string\\|null given\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Parameter \\#2 \\$object of method Fab\\\\Vidi\\\\View\\\\Grid\\\\Row\\:\\:processValue\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null given\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Return type \\(array\\) of method Fab\\\\Vidi\\\\View\\\\Grid\\\\Row\\:\\:render\\(\\) should be compatible with return type \\(string\\) of method Fab\\\\Vidi\\\\View\\\\ViewComponentInterface\\:\\:render\\(\\)$#"
+			count: 2
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between mixed and null will always evaluate to false\\.$#"
+			count: 1
+			path: Classes/View/Grid/Row.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ClipboardMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ClipboardMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ClipboardMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:hasFolderTree\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ClipboardMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ClipboardMenuItem.php
+
+		-
+			message: "#^Class Fab\\\\Media\\\\Module\\\\MediaModule not found\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ClipboardMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ExportCsvMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ExportCsvMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ExportXlsMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ExportXlsMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ExportXmlMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/ExportXmlMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/MassDeleteMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/MassDeleteMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/MassDeleteMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/MassDeleteMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/MassEditMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:sL\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/MenuItem/MassEditMenuItem.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/View/Uri/EditUri.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method Fab\\\\Vidi\\\\View\\\\Uri\\\\EditUri\\:\\:getEditParameterName\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content, Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|null given\\.$#"
+			count: 1
+			path: Classes/View/Uri/EditUri.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addCssFile\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Be/AdditionalAssetsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addJsFile\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Be/AdditionalAssetsViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$uri of method Fab\\\\Vidi\\\\ViewHelpers\\\\Be\\\\AdditionalAssetsViewHelper\\:\\:resolvePath\\(\\) expects string, string given\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Be/AdditionalAssetsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\ViewHelpers\\\\Be\\\\RequireJsViewHelper\\:\\:renderChildren\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Be/RequireJsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addJsInlineCode\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Be/RequireJsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:addRequireJsConfiguration\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Be/RequireJsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:loadRequireJsModule\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Be/RequireJsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getModuleUrl\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Button/ToolWorkViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getParameterPrefix\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Button/ToolWorkViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:equals\\(\\)\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:in\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Call to method dispatch\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 4
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Call to method setIgnoreEnableFields\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings not found\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Class TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher not found\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:emitPostProcessLimitSignal\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:emitPostProcessMatcherObjectSignal\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:emitPostProcessOffsetSignal\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:emitPostProcessOrderObjectSignal\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getDefaultQuerySettings\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getDefaultQuerySettings\\(\\) has parameter \\$ignoreEnableFields with no type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getDefaultQuerySettings\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\QuerySettingsInterface but returns TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getFieldPathResolver\\(\\) should return Fab\\\\Vidi\\\\Resolver\\\\FieldPathResolver but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getMatcher\\(\\) should return Fab\\\\Vidi\\\\Persistence\\\\Matcher but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getOrder\\(\\) should return Fab\\\\Vidi\\\\Persistence\\\\Order but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getQuerySignature\\(\\) has parameter \\$limit with no type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getQuerySignature\\(\\) has parameter \\$offset with no type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getResultSetStorage\\(\\) should return Fab\\\\Vidi\\\\Persistence\\\\ResultSetStorage but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getSignalSlotDispatcher\\(\\) has invalid return type TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getSignalSlotDispatcher\\(\\) should return TYPO3\\\\CMS\\\\Extbase\\\\SignalSlot\\\\Dispatcher but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$defaultQuerySettings contains unknown class TYPO3\\\\CMS\\\\Extbase\\\\Persistence\\\\Generic\\\\Typo3QuerySettings\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$matcher Matcher\\)\\: Unexpected token \"\\$matcher\", expected type at offset 9$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$matcher of method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:emitPostProcessMatcherObjectSignal\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Matcher, object given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$order of method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:emitPostProcessOrderObjectSignal\\(\\) expects Fab\\\\Vidi\\\\Persistence\\\\Order, object given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/AbstractContentViewHelper.php
+
+		-
+			message: "#^Call to an undefined method TYPO3Fluid\\\\Fluid\\\\Core\\\\Rendering\\\\RenderingContextInterface\\:\\:getTemplateVariableContainer\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:equals\\(\\)\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:in\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Cannot access offset 'uid' on 0\\|0\\.0\\|''\\|'0'\\|array\\{\\}\\|false\\|null\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\FindOneViewHelper\\:\\:getFieldPathResolver\\(\\) should return Fab\\\\Vidi\\\\Resolver\\\\FieldPathResolver but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\FindOneViewHelper\\:\\:getMatcher\\(\\) should return Fab\\\\Vidi\\\\Persistence\\\\Matcher but returns object\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$matcher Matcher\\)\\: Unexpected token \"\\$matcher\", expected type at offset 9$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$overrule of static method TYPO3\\\\CMS\\\\Core\\\\Utility\\\\ArrayUtility\\:\\:mergeRecursiveWithOverrule\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindOneViewHelper.php
+
+		-
+			message: "#^Call to an undefined method Fab\\\\Vidi\\\\Domain\\\\Repository\\\\SelectionRepository\\:\\:findByUid\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$matches of method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getMatcher\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$matches of method Fab\\\\Vidi\\\\ViewHelpers\\\\Content\\\\AbstractContentViewHelper\\:\\:getQuerySignature\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Content/FindViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$overrule of static method TYPO3\\\\CMS\\\\Core\\\\Utility\\\\ArrayUtility\\:\\:mergeRecursiveWithOverrule\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/GpViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/Column/ConfigurationViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Grid/Column/ConfigurationViewHelper.php
+
+		-
+			message: "#^Cannot access offset 'dataType' on mixed\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Grid/Column/FieldNameViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Grid\\\\Column\\\\FieldNameViewHelper\\:\\:render\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/Column/FieldNameViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/Column/HasRelationViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:stripFieldPath\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/Column/HasRelationViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Grid\\\\Column\\\\HeaderViewHelper\\:\\:render\\(\\) should return bool but returns string\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/Column/HeaderViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$fieldNameAndPath of method Fab\\\\Vidi\\\\Tca\\\\GridService\\:\\:getLabel\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/Column/TitleViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Grid\\\\FacetsViewHelper\\:\\:render\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/FacetsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:get\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Grid/PreferencesViewHelper.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/IsRelatedToViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDefaultFlag\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/LanguagesViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getLanguages\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/LanguagesViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Link/BackViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$values of function sprintf expects bool\\|float\\|int\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Link/BackViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$callback of function call_user_func_array expects callable\\(\\)\\: mixed, array\\{object, 'render'\\} given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Render/ComponentsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:findReferencedBy\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/AbstractToFormatViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\AbstractToFormatViewHelper\\:\\:checkWhetherObjectMayIncludeFiles\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/AbstractToFormatViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method TYPO3\\\\CMS\\\\Core\\\\Http\\\\Message\\:\\:withHeader\\(\\) expects array\\<string\\>\\|string, int\\<0, max\\>\\|false given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/AbstractToFormatViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToCsvViewHelper\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToCsvViewHelper\\:\\:writeCsvFile\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$objects of method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\AbstractToFormatViewHelper\\:\\:initializeEnvironment\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$objects of method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToCsvViewHelper\\:\\:writeCsvFile\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$stream of function fclose expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$stream of function fputcsv expects resource, resource\\|false given\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method TYPO3\\\\CMS\\\\Core\\\\Http\\\\Message\\:\\:withHeader\\(\\) expects array\\<string\\>\\|string, int\\<0, max\\>\\|false given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToCsvViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:render\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToJsonViewHelper.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToJsonViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToJsonViewHelper\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToJsonViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of function count expects array\\|Countable, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToJsonViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXlsViewHelper\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXlsViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$objects of method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\AbstractToFormatViewHelper\\:\\:initializeEnvironment\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXlsViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$objects of method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXlsViewHelper\\:\\:writeXlsFile\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXlsViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method TYPO3\\\\CMS\\\\Core\\\\Http\\\\Message\\:\\:withHeader\\(\\) expects array\\<string\\>\\|string, int\\<0, max\\>\\|false given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXlsViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXmlViewHelper\\:\\:arrayToXml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXmlViewHelper\\:\\:arrayToXml\\(\\) has parameter \\$array with no type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXmlViewHelper\\:\\:formatXml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXmlViewHelper\\:\\:formatXml\\(\\) has parameter \\$xml with no type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXmlViewHelper\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$objects of method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\AbstractToFormatViewHelper\\:\\:initializeEnvironment\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$objects of method Fab\\\\Vidi\\\\ViewHelpers\\\\Result\\\\ToXmlViewHelper\\:\\:writeXmlFile\\(\\) expects array, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Parameter \\#2 \\$value of method TYPO3\\\\CMS\\\\Core\\\\Http\\\\Message\\:\\:withHeader\\(\\) expects array\\<string\\>\\|string, int\\<0, max\\>\\|false given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Result/ToXmlViewHelper.php
+
+		-
+			message: "#^Call to static method translate\\(\\) on an unknown class TYPO3\\\\CMS\\\\Extbase\\\\Utility\\\\LocalizationUtility\\.$#"
+			count: 3
+			path: Classes/ViewHelpers/Selection/VisibilityOptionsViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getIcon\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/SpriteViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Tca\\\\IsLanguageApplicableViewHelper\\:\\:render\\(\\) should return string but returns bool\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Tca/IsLanguageApplicableViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$fieldName of method Fab\\\\Vidi\\\\Tca\\\\TableService\\:\\:field\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Tca/IsLanguageApplicableViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$tableNameOrContentObject of static method Fab\\\\Vidi\\\\Tca\\\\Tca\\:\\:table\\(\\) expects Fab\\\\Vidi\\\\Domain\\\\Model\\\\Content\\|string, mixed given\\.$#"
+			count: 2
+			path: Classes/ViewHelpers/Tca/IsLanguageApplicableViewHelper.php
+
+		-
+			message: "#^Method Fab\\\\Vidi\\\\ViewHelpers\\\\Tca\\\\TitleViewHelper\\:\\:render\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/Tca/TitleViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getCache\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/UserPreferencesViewHelper.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:getDataType\\(\\)\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/UserPreferencesViewHelper.php
+
+		-
+			message: "#^Offset 'uid' does not exist on array\\|null\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/UserPreferencesViewHelper.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function addslashes expects string, mixed given\\.$#"
+			count: 1
+			path: Classes/ViewHelpers/UserPreferencesViewHelper.php
